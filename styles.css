@@ -15,8 +15,8 @@ h2 {
     border-radius: 7px 7px 0px 0px;
 }
 nav {
-    max-width: 20%;
-    margin: 5em 0 0 1em;
+    max-width: 18%;
+    padding: 1em 0 0 0;
     position: absolute;
     font-size: 18px;
     line-height: 1.5em;
@@ -24,6 +24,7 @@ nav {
 }
 nav ul {
     list-style: none;
+    padding-left: 1em;
 }
 a {
     color: grey;
@@ -47,7 +48,7 @@ section h2 {
     border-radius: 7px 7px 0px 0px;
 }
 section p {
-    width: 48%;
+    width: 47%;
     display: inline-block;
     padding: 1em;
     margin: 0;
