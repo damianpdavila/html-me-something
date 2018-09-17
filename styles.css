@@ -1,0 +1,70 @@
+h1, h2 {
+    font-family: sans-serif;
+}
+h1 {
+    margin: 2em 10% 2em 20%;
+}
+h2 {
+    padding: 1em;
+    border: 1px solid lightgrey;
+    text-align: center;
+    background-color: white;
+    padding: 1em;
+    border: 1px solid lightgrey;
+    font-family: sans-serif;
+    border-radius: 7px 7px 0px 0px;
+}
+nav {
+    max-width: 20%;
+    margin: 5em 0 0 1em;
+    position: absolute;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+}
+nav ul {
+    list-style: none;
+}
+a {
+    color: grey;
+}
+main {
+    margin: 5em 10% 5em 20%;
+    font-size: 18px;
+}
+figure img {
+    width: 100%;
+}
+section {
+    clear: both;
+    border-radius: 7px;
+}
+section h2 {
+    text-align: center;
+    padding: 1em;
+    border: 1px solid lightgrey;
+    font-family: sans-serif;
+    border-radius: 7px 7px 0px 0px;
+}
+section p {
+    width: 48%;
+    display: inline-block;
+    padding: 1em;
+    margin: 0;
+    color: grey;
+}
+section figure {
+    width: 48%;
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+}
+section:nth-child(2n) figure {
+    float: left;
+}
+figcaption p {
+    width: 100%;
+    margin: 0.15em 0.15em 5em 0.15em;
+    font-size: small;
+    padding: 0 1em;
+}
